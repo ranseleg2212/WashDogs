@@ -1,0 +1,74 @@
+.barra {
+    background-color: #dfdcd3!important;
+}
+
+.sub-barra {
+    background-color: #605951!important;
+}
+
+.footer {
+    background-color: #605951!important;
+}
+
+.barra-admin {
+    background-color: #605951!important;
+}
+
+.botones-admin :hover{
+    background-color: #dfdcd3!important;
+    border-radius: 5px!important;
+}
+
+.fondo-body {
+    background-color: #f7f6f1!important;
+}
+
+.fondo-body-admin {
+    background-color: #f7f6f1!important;
+}
+
+.tabla-pedidos {
+    background-color: #524a41!important;
+}
+
+.tabla-usuarios {
+    background-color: #524a41!important;
+}
+
+.tabla-productos {
+    background-color: #524a41!important;
+}
+
+.tabla-carrito {
+    background-color: #524a41!important;
+}
+
+.tabla-solicitudes {
+    background-color: #524a41!important;
+}
+
+.carousel-item {
+    background-position: 50%;
+    height: 350px;
+}
+
+.carousel-item img {
+    width: 2000px;
+    height: 400px;
+}
+
+.txt-carrito {
+    color: rgb(154 52 18)!important;
+}
+
+.alerta-index {
+    background-color: #c1b398!important;
+}
+
+.datos-pedido {
+    background-color: #524a41!important;
+}
+
+.datos-pedido-light {
+    background-color: #756c63!important;
+}

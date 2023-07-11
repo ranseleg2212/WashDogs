@@ -1,0 +1,52 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+#nombre_seccion{
+    text-align: center;
+}
+
+.controles{
+    padding: 10px;
+}
+
+.boton_control{
+    background-color: #fff;
+    color: $orange;
+    border-color: #000;
+    font-size: 24px;
+}
+
+.boton_control:hover{
+    a{
+        color: #fff;
+    }
+    background-color: $orange;
+    color: #fff;
+    border-color: #000;
+    font-weight: bold;
+}
+.bta{
+    text-decoration: none;
+    color:$orange;
+    width: 100%;
+    height: 100%;
+}
+
+.bta:hover{
+    color: #fff;
+    background-color: $orange;
+    text-decoration: none;
+}
+
+.boton_control:focus{
+    background-color: $orange;
+    border-color: #000;
+
+}
+

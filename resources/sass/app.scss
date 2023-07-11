@@ -1,0 +1,67 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
+
+
+.boton_cien,
+#registrar {
+    width: 100%;
+}
+
+.navbar-brand {
+    font-family: 'Anton', sans-serif;
+}
+
+.w-2 {
+    width: 30px;
+}
+
+.w-1 {
+    width: 20px;
+}
+
+footer {
+    margin: auto;
+}
+
+.agregar:hover {
+    background-color: $orange;
+    border-color: $orange;
+}
+
+.agregar {
+    color: $orange;
+    border-color: $orange;
+}
+
+.red-social:hover {
+    background-color: $orange;
+    border-color: $orange;
+}
+
+.navbar {
+    margin-top: 0;
+}
+
+$carousel-transition-duration: .6s;
+
+@media (max-width: 860px) {
+    .col-sm-3 {
+        width: 50%;
+    }
+
+    @media (max-width: 425px) {
+        .col-sm-3 {
+            width: 100%;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 860px) {
+        .col-sm-3 {
+            width: 33.33%;
+        }
+    }
+}
